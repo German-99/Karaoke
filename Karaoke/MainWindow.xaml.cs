@@ -28,23 +28,41 @@ namespace Karaoke
     public partial class MainWindow : Window
     {
         AudioFileReader reader;
+        DispatcherTimer timer;
         WaveOut output;
+        bool dragging = false;
         public MainWindow()
         {
             InitializeComponent();
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(500);
+            timer.Tick += Timer_Tick;
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+
+            if (!dragging)
+            {
+                PbCancion.Value = reader.CurrentTime.TotalSeconds;
+            }
         }
 
         private void BtnReproducir_Click(object sender, RoutedEventArgs e)
         {
+           
+
             reader = new AudioFileReader(@"Surf Curse - In My Head Till I'm Dead.mp3");
             output = new WaveOut();
             output.Init(reader);
             output.Play();
             btnReproducir.Visibility = Visibility.Hidden;
             PbCancion.Visibility = Visibility.Visible;
-
             PbCancion.Maximum = reader.TotalTime.TotalSeconds;
             PbCancion.Value = reader.CurrentTime.TotalSeconds;
+
+            timer.Start();
+
         }
     }
-}
+    }
