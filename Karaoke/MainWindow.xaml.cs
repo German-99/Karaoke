@@ -46,6 +46,7 @@ namespace Karaoke
             {
                 PbCancion.Value = reader.CurrentTime.TotalSeconds;
             }
+
         }
 
         private void BtnReproducir_Click(object sender, RoutedEventArgs e)
@@ -60,6 +61,11 @@ namespace Karaoke
             PbCancion.Visibility = Visibility.Visible;
             PbCancion.Maximum = reader.TotalTime.TotalSeconds;
             PbCancion.Value = reader.CurrentTime.TotalSeconds;
+
+             if ()
+              {
+                  txt1.Visibility = Visibility.Visible;
+              }
 
             timer.Start();
 
