@@ -10,16 +10,17 @@
         <Button x:Name="btnReproducir" Content="Reproducir" HorizontalAlignment="Left" Margin="357,206,0,0" VerticalAlignment="Top" Width="75" Click="BtnReproducir_Click" Visibility="Visible"/>
         <ProgressBar x:Name="PbCancion" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Visibility="Hidden"/>
         <Label x:Name="txt1" Content="Why do I waste all my time" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt2" Content="Thinking of you I'd rather die" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt3" Content="Your eyes are always in my mind" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt4" Content="It keeps me awake every night" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt5" Content="'Cause you're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt6" Content="You're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt7" Content="Yeah, ooh" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt8" Content="I've never felt so much pain" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt9" Content="If I close my eyes I see your face" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt10" Content="When I'm alone I scream your name" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt2" Content="Thinking of you I'd rather die" HorizontalAlignment="Left" Margin="157,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt3" Content="Your eyes are always in my mind" HorizontalAlignment="Left" Margin="126,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt4" Content="It keeps me awake every night" HorizontalAlignment="Left" Margin="132,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt5" Content="'Cause you're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="40,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt6" Content="You're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="107,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt7" Content="Yeah, ooh" HorizontalAlignment="Left" Margin="307,177,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt8" Content="I've never felt so much pain" HorizontalAlignment="Left" Margin="177,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt9" Content="If I close my eyes I see your face" HorizontalAlignment="Left" Margin="132,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt10" Content="When I'm alone I scream your name" HorizontalAlignment="Left" Margin="94,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
         <Label x:Name="txt11" Content="My Lolita, I'm not insane" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
-        <Label x:Name="txt12" Content="But you're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="txt12" Content="But you're in my head, in my head, ooh" HorizontalAlignment="Left" Margin="65,182,0,0" VerticalAlignment="Top" FontSize="36" Visibility="Hidden"/>
+        
     </Grid>
 </Window>

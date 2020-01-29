@@ -47,6 +47,84 @@ namespace Karaoke
                 PbCancion.Value = reader.CurrentTime.TotalSeconds;
             }
 
+            if (PbCancion.Value > 20)
+            {
+                txt1.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 27)
+            {
+                txt1.Visibility = Visibility.Hidden;
+                txt2.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 37)
+            {
+                txt2.Visibility = Visibility.Hidden;
+                txt3.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 47)
+            {
+                txt3.Visibility = Visibility.Hidden;
+                txt4.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 58)
+            {
+                txt4.Visibility = Visibility.Hidden;
+                txt5.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 63)
+            {
+                txt5.Visibility = Visibility.Hidden;
+                txt6.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 83)
+            {
+                txt6.Visibility = Visibility.Hidden;
+                txt7.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 98)
+            {
+                txt7.Visibility = Visibility.Hidden;
+               
+            }
+            if (PbCancion.Value > 118)
+            {
+                txt7.Visibility = Visibility.Hidden;
+                txt8.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 127)
+            {
+                txt8.Visibility = Visibility.Hidden;
+                txt9.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 137)
+            {
+                txt9.Visibility = Visibility.Hidden;
+                txt10.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 147)
+            {
+                txt10.Visibility = Visibility.Hidden;
+                txt11.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 157)
+            {
+                txt10.Visibility = Visibility.Hidden;
+                txt11.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 163)
+            {
+                txt11.Visibility = Visibility.Hidden;
+                txt6.Visibility = Visibility.Visible;
+            }
+            if (PbCancion.Value > 180)
+            {
+                txt6.Visibility = Visibility.Hidden;
+                txt7.Visibility = Visibility.Visible;
+            }
+
+
+
+
         }
 
         private void BtnReproducir_Click(object sender, RoutedEventArgs e)
@@ -62,13 +140,10 @@ namespace Karaoke
             PbCancion.Maximum = reader.TotalTime.TotalSeconds;
             PbCancion.Value = reader.CurrentTime.TotalSeconds;
 
-             if ()
-              {
-                  txt1.Visibility = Visibility.Visible;
-              }
 
             timer.Start();
 
+         
         }
     }
     }
